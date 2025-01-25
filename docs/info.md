@@ -13,6 +13,22 @@ Explain how your project works
 
 The 1-bit ALU implements 4 different operations: AND, NOT, OR, ADD.
 
+The current operating mode can be selected via F0 and F1.
+                 F0=0 and F1=0 results in A AND B.
+                 F0=1 and F1=0 results in NOT B.
+                 F0=0 and F1=1 results in A OR B.
+                 F0=1 and F1=1 results in A ADD B.
+                 Where A and B are the inputs for the operation.
+                 
+                 Additional inputs can change the way of operation:
+                 
+                 `ENA` and `ENB` enable/disable the respective input.
+                 `INVA` inverts A before applying the operation.
+                 `CIN` is used as input for the full adder.
+                 
+                 Multiple 1bit ALUs could be chained to create a wider ALU.
+                 "      # Longer description of how the project works
+
 ## How to test
 
 Explain how to use your project
