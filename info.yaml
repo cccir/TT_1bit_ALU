@@ -1,7 +1,7 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     421030064260152321       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "tiny-tapeout-1bit-alu"      # Project title
+  wokwi_id:     421031633536152577       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "one_bit_alu "      # Project title
   author:       "CIT"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Tinytape out using one bit alu"      # One line description of what your project does
