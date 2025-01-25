@@ -15,14 +15,14 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "IN0"
-  ui[1]: "IN1"
-  ui[2]: "IN2"
-  ui[3]: "IN3"
-  ui[4]: "IN4"
-  ui[5]: "IN5"
-  ui[6]: "IN6"
-  ui[7]: "IN7"
+  ui[0]: "CIN"
+  ui[1]: "INA"
+  ui[2]: "A"
+  ui[3]: "ENA"
+  ui[4]: "B"
+  ui[5]: "ENB"
+  ui[6]: "F0"
+  ui[7]: "F1"
 
   # Outputs
   uo[0]: "led_a"
