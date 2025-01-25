@@ -2,6 +2,7 @@
 
 # Tiny Tapeout Wokwi Project Template
 
+Tinytapeout for 1-bit ALU from the book `Structured Computer Organization: Andrew S. Tanenbaum
 - [Read the documentation for project](docs/info.md)
 
 ## What is Tiny Tapeout?
